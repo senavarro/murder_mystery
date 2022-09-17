@@ -8,7 +8,7 @@ const handleForm = () => {
     const pwdValue = parseInt(pwdRaw);
 
     if(userNameValue === 'pingu' && pwdValue === 1234){
-        console.log('Noot noot');
+        window.location.href="http://127.0.0.1:5501/pingu.html";
     }else if(userNameValue === 'pingj' && pwdValue === 5678){
         console.log('Honk honk');
     }else{
