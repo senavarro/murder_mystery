@@ -10,7 +10,7 @@ const handleForm = () => {
     if(userNameValue === 'pingu' && pwdValue === 1234){
         window.location.href="http://127.0.0.1:5501/pingu.html";
     }else if(userNameValue === 'pingj' && pwdValue === 5678){
-        console.log('Honk honk');
+        window.location.href="http://127.0.0.1:5501/pingj.html";
     }else{
         console.log('You shall not pass');
     }
