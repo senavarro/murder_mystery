@@ -7,12 +7,12 @@ const handleForm = () => {
     const pwdRaw = document.getElementById("password").value;
     const pwdValue = parseInt(pwdRaw);
 
-    if(userNameValue === 'pingu' && pwdValue === 1234){
-        window.location.href="http://127.0.0.1:5501/pingu.html";
-    }else if(userNameValue === 'pingj' && pwdValue === 5678){
-        window.location.href="http://127.0.0.1:5501/pingj.html";
+    if(userNameValue === 'lilyclarke' && pwdValue === 778412){
+        window.location.href="../../../lily2407.html";
+    }else if(userNameValue === 'marthagreen' && pwdValue === 187452){
+        window.location.href="../../../marthagreen63428.html";
     }else{
-        console.log('You shall not pass');
+        alert('Please make sure you have introduced the right credentials')
     }
     
 }
