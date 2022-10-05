@@ -2006,6 +2006,17 @@ input, select, textarea {
 
 /* Icon */
 
+	#email {
+		margin: 0 auto;
+		width: 50%;
+	}
+
+
+	#password {
+		margin: 0 auto;
+		width: 50%;
+	}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
