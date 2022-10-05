@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+*{
+    text-align: justify;
+
+}
+
+body, li{
+    background: #2e3842;
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    line-height: 1.65em;
+}
+
+#rules{
+    margin-top: 20px;
+}
+
+#ruleset li{
+    font-size: 14px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+h3{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 60px !important;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5{
+    margin-top: 50px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#character-name{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.character-box{
+    display: block;
+    width: 70%;
+    margin-top: 4%;
+    border: 2px solid white;
+    margin-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+
+.character-box :first-child{
+    margin-top: 20px;
+}
+
+
+p{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+li{
+    list-style-type: none;
+    padding: 4px;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.back{
+    font-size: 20px;
+}
+
+.back::before{
+    content: "< ";
+}
+
+.right{
+    text-align: right;
+    margin-left: 22%;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.things{
+    margin-top: 70px !important;
+}
+
+a:visited { text-decoration: none; color:#fff; }
+a:hover { text-decoration: underline; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: underline; color:black }
+
