@@ -6,8 +6,8 @@
 }
 
 body, li{
-    background: #2e3842;
-    color: #fff;
+    background: #20252b;
+    color: ivory;
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -16,11 +16,20 @@ body, li{
 }
 
 #rules{
-    margin-top: 20px;
+    width: 95%;
+    margin-top: 30px;
+    margin: 0 auto;
+    box-shadow: 0px -15px 10px mediumseagreen, 0px 15px 10px mediumseagreen;
 }
 
 #ruleset li{
     font-size: 14px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-top: 20px;
 }
 
 h2{
@@ -55,12 +64,13 @@ h5{
 
 .character-box{
     display: block;
-    width: 70%;
+    width: 82%;
     margin-top: 4%;
     border: 2px solid white;
     margin-left: 20px;
     padding-right: 30px;
     margin-bottom: 50px;
+    box-shadow: 15px 15px 10px mediumseagreen;
 }
 
 .character-box :first-child{
@@ -82,6 +92,7 @@ li{
 
 .back{
     font-size: 20px;
+    color: white;
 }
 
 .back::before{
@@ -90,17 +101,19 @@ li{
 
 .right{
     text-align: right;
-    margin-left: 22%;
+    margin-left: 10%;
     padding-left: 30px;
     margin-right: 20px;
+    box-shadow: -15px -15px 10px mediumseagreen;
 }
 
 .things{
     margin-top: 70px !important;
 }
 
-a:visited { text-decoration: none; color:#fff; }
-a:hover { text-decoration: underline; color:black; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: underline; color:black }
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: underline; color:mediumseagreen; }
+a:focus { text-decoration: none; color:mediumseagreen; }
+a:hover, a:active { text-decoration: underline; color:mediumseagreen }
+
 
