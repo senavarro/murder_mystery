@@ -128,7 +128,7 @@ a:hover, a:active { text-decoration: underline; color:mediumseagreen }
     }
     
     .character-box{
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
         padding: 20px;
     }
