@@ -17,6 +17,10 @@ const handleForm = () => {
         window.location.href="../../../eleanorbirtwistle719624.html";
     }else if(userNameValue === 'jackandeliza' && pwdValue === 3175629){
         window.location.href="../../../jackcooper&elizaevans15344.html";
+    }else if(userNameValue === 'adelaide' && pwdValue === 11227531){
+        window.location.href="../../../adelaidebrown23156.html";
+    }else if(userNameValue === 'eddavies' && pwdValue === 66614901){
+        window.location.href="../../../edwin99216.html";
     }else{
         alert('Please make sure you have introduced the right credentials')
     }
