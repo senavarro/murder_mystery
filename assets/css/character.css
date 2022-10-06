@@ -28,14 +28,17 @@ body, li{
     padding-bottom: 20px;
 }
 
-h3{
-    padding-top: 20px;
-}
-
 h2{
     font-size: 40px;
     text-align: center;
 }
+
+
+
+h3{
+    padding-top: 20px;
+}
+
 
 h3{
     font-size: 28px;
@@ -116,4 +119,29 @@ a:hover { text-decoration: underline; color:mediumseagreen; }
 a:focus { text-decoration: none; color:mediumseagreen; }
 a:hover, a:active { text-decoration: underline; color:mediumseagreen }
 
+
+@media only screen and (max-device-width: 480px){
+    
+    
+    h2{
+        font-size: 23px;
+    }
+    
+    .character-box{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .right{
+        display: block;
+        width: 82%;
+        margin-top: 4%;
+        border: 2px solid white;
+        margin-left: 20px;
+        padding-right: 30px;
+        margin-bottom: 50px;
+        box-shadow: 15px 15px 10px mediumseagreen;
+    }
+}
 
