@@ -137,6 +137,7 @@ a:hover, a:active { text-decoration: underline; color:mediumseagreen }
         width: 70%;
         margin: 0 auto;
         padding: 20px;
+        margin-left: 10px;
     }
 
     .right{
