@@ -144,8 +144,8 @@ a:hover, a:active { text-decoration: underline; color:mediumseagreen }
         width: 82%;
         margin-top: 4%;
         border: 2px solid white;
-        margin-left: 20px;
-        padding-right: 30px;
+        margin-left: 0px;
+        padding-right: 0px;
         margin-bottom: 50px;
         box-shadow: 15px 15px 10px mediumseagreen;
     }
